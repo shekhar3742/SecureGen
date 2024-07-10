@@ -1,66 +1,58 @@
-SecureGen 
-SecureGen is a web application that generates secure passwords based on user-selected criteria. Users can specify the length of the password and choose to include numbers, special characters, and alphabets. The application also provides a feature to copy the generated password to the clipboard.
+# SecureGen
 
-Features
-Select the length of the password
-Option to include numbers
-Option to include special characters
-Option to include alphabets (both lowercase and uppercase)
-Copy the generated password to the clipboard
+SecureGen is a simple and secure password generator. It allows you to set the length of the password, choose to include characters and alphabets, and then copy the generated password to your clipboard.
 
-Demo
-You can see the SecureGen Password Generator in action here: SecureGen Demo
+## Features
 
-Getting Started
+- Set password length
+- Include/exclude special characters
+- Include/exclude alphabets (both upper and lower case)
+- Copy generated password to clipboard
 
-Prerequisites
-You need a web browser to run this application.
+## Tech Stack
 
-Installation
-Clone the repository:
+- Vite + React
+- Tailwind CSS
 
 
-git clone https://github.com/your-username/securegen-password-generator.git
+## Installation
 
-Open the project folder:
+To install and run SecureGen locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/shekhar3742/SecureGen.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd SecureGen
+    ```
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Usage
+
+1. Open your web browser and go to `http://localhost:3000`.
+
+2. Set the desired length of your password using the provided input field.
+
+3. Choose whether to include special characters and alphabets by toggling the checkboxes.
+
+4. Click the "Generate" button to create a new password.
+
+5. Click the "Copy" button to copy the generated password to your clipboard.
 
 
-Copy code
-cd securegen-password-generator
-Open the index.html file in your web browser:
+## Contact
 
-sh
-Copy code
-open index.html
-Usage
-Open the SecureGen Password Generator in your web browser.
-Select the desired length of your password using the slider.
-Check the boxes to include numbers, special characters, and alphabets in your password.
-Click the "Generate Password" button to create a new password.
-To copy the generated password, click the "Copy to Clipboard" button.
-File Structure
-graphql
-Copy code
-securegen-password-generator/
-│
-├── index.html        # The main HTML file
-├── styles.css        # CSS file for styling the application
-└── script.js         # JavaScript file containing the logic for generating passwords
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+For any questions or suggestions, feel free to reach out at divyanshushekhar3742@gmail.com.
 
-Fork the repository
-Create a new branch (git checkout -b feature-branch)
-Commit your changes (git commit -am 'Add new feature')
-Push to the branch (git push origin feature-branch)
-Create a new Pull Request
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contact
-If you have any questions or suggestions, feel free to reach out:
-
-Name: [Your Name]
-Email: [your-email@example.com]
-GitHub: your-username
-Feel free to customize the placeholders with your own inform
